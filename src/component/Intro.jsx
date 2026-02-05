@@ -20,7 +20,7 @@ const Intro = ({ setIntro }) => {
 
     else if(index == arr.length){
 
-        setTimeout(() => setIntro(true),500);
+        setTimeout(() => setIntro(true),800);
     }
    
     return () => clearTimeout(timer);
@@ -40,10 +40,10 @@ const Intro = ({ setIntro }) => {
         
             <motion.div
               key="last-word" // unique key so only this triggers exit
-              initial={{ opacity: 0, y: 0}}
+              initial={{ opacity: 0, y: "100vh"}}
               animate={{ opacity: 1, y: 0 }}
-              exit={{ opacity: 0, y: "-100%" }}
-              transition={{ ease:"easeInOut"}}
+              exit={{ opacity: 0, y: "-100vh" }}
+              transition={{duration:0.8, ease:"easeInOut"}}
               className="fixed inset-0 bg-black flex justify-center items-center text-white font-semibold text-3xl"
             >
             </motion.div>
