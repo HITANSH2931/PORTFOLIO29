@@ -43,7 +43,7 @@ const Intro = ({ setIntro }) => {
               initial={{ opacity: 0, y: 0}}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: "-100%" }}
-              transition={{ duration: 5, ease:"easeInOut"}}
+              transition={{ ease:"easeInOut"}}
               className="fixed inset-0 bg-black flex justify-center items-center text-white font-semibold text-3xl"
             >
             </motion.div>
