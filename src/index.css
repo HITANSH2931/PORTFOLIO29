@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+body{
+  font-family: "poppins",sans-serif;
+}
+
+h1,h2{
+  font-family: "Roboto" sans-serif;
+}
+
+@layer utilities{
+  .gradient{
+    background: linear-gradient(-45deg,#302b63,#00bf8f,#1cd8d2);
+  }
+}
+
+@keyframes fadeGlow {
+  0%   { opacity: 0; transform: scale(0.8); }
+  30%  { opacity: 0.30; transform: scale(1); }
+  60%  { opacity: 0.30; transform: scale(1); }
+  100% { opacity: 0; transform: scale(1.2); }
+}
