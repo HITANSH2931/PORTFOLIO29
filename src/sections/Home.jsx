@@ -33,15 +33,15 @@ const Home = () => {
             </div>
 
              <div className="flex items-center pl-3  gap-9 text-3xl text-white mt-3.5">
-            <a href="https://linkedin.com" target="_blank">
+            <a href="https://www.linkedin.com/in/hitansh-joshi-3118682a9/" target="_blank">
              <FaLinkedinIn />
             </a>
 
-             <a href="https://instagram.com" target="_blank">
+             <a href="https://www.instagram.com/_hitansh_09/" target="_blank">
              <FaInstagram />
              </a>
 
-             <a href="https://github.com" target="_blank">
+             <a href="https://github.com/HITANSH2931/" target="_blank">
              <FaGithub />
              </a>
 

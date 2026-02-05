@@ -10,15 +10,15 @@ const Footer = () => {
         <h1 className='text-white font-bold text-5xl text-center'>Hitansh Joshi</h1>
         <div className='h-1 bg-linear-to-r from-[#1cd8d2] via-[#00bf8f] to-[#302b63] rounded-lg'></div>
           <div className="flex items-center pl-3  gap-9 text-3xl text-white mt-3.5 mx-auto">
-                    <a href="https://linkedin.com" target="_blank">
+                    <a href="https://www.linkedin.com/in/hitansh-joshi-3118682a9/" target="_blank">
                      <FaLinkedinIn />
                     </a>
         
-                     <a href="https://instagram.com" target="_blank">
+                     <a href="https://www.instagram.com/_hitansh_09/" target="_blank">
                      <FaInstagram />
                      </a>
         
-                     <a href="https://github.com" target="_blank">
+                     <a href="https://github.com/HITANSH2931/" target="_blank">
                      <FaGithub />
                      </a>
         
