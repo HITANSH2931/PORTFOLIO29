@@ -8,6 +8,7 @@ import Footer from './sections/Footer'
 import BackgroundParticles from './component/BackgroundParticles'
 import Intro from './component/Intro'
 import Projects from './sections/Projects'
+import BackgroundMusic from './component/BackgroundMusic'
 
 
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
   {!intro && <Intro setIntro={setIntro}/>}
 
    {intro &&  <div className='bg-black'>
+       <BackgroundMusic/>
        <Navbar/>
        <Home/>
        <About/>
