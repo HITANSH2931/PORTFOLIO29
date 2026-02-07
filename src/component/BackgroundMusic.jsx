@@ -1,5 +1,5 @@
 import React, { useRef, useState } from "react";
-import Love from "../assets/Love.mp3";
+import Night from "../assets/Night.mp3";
 import { FaPlay, FaPause } from "react-icons/fa";
 
 const BackgroundMusic = () => {
@@ -24,7 +24,7 @@ const BackgroundMusic = () => {
 
   return (
     <div>
-      <audio ref={audioRef} src={Love} loop /> 
+      <audio ref={audioRef} src={Night} loop /> 
       
       <button
         onClick={togglePlay}
