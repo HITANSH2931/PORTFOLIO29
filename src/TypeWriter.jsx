@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 function TypeWriter() {
-  const text = "Java Full Stack Developer";
+  const text = "Front End Developer";
   const [display, setDisplay] = useState("");
   const [i, setI] = useState(0);
 
